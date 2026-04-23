@@ -1,16 +1,117 @@
-# React + Vite
+# Custom Chatbot (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight web application that allows users to create and interact with their own chatbot by providing an API key and API endpoint.
 
-Currently, two official plugins are available:
+Built with **React** and **Vite** for fast performance and a simple development setup.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Custom API key input
+- Custom endpoint support
+- Simple chat interface
+- Fast React + Vite setup
+- Easy to run locally
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- Fetch API
+
+---
+
+## Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+Go to the project folder:
+
+bash
+cd your-repo-name
+Install dependencies:
+
+bash
+npm install
+Run the development server:
+
+bash
+npm run dev
+Build
+To build the project:
+
+bash
+npm run build
+The production files will be generated in the dist folder.
+
+Usage
+Enter your API key
+Enter your API endpoint
+Start chatting with your custom chatbot
+Security Note
+Never expose your API keys in public repositories.
+
+License
+MIT License
+
+text
+
+---
+
+# 5️⃣ اگر بخواهی پروژه حرفه‌ای‌تر به نظر برسد
+
+این سه چیز خیلی تاثیر دارد:
+
+### ✅ Screenshot داخل README
+
+مثلاً:
+
+Screenshot
+
+
+text
+
+---
+
+### ✅ Topics در GitHub
+
+بعد از ساخت repo این‌ها را اضافه کن:
+
+react
+
+vite
+
+chatbot
+
+ai-chat
+
+openai-api
+
+webapp
+
+text
+
+---
+
+### ✅ اسم مناسب برای repo
+
+چند ایده خوب:
+
+- `custom-chatbot-webapp`
+- `bring-your-own-api-chatbot`
+- `react-chatbot-client`
+- `ai-chat-client`
+
+---
+
+✅ اگر بخواهی، می‌توانم همین الان هم:
+
+- یک **README خیلی حرفه‌ای‌تر (مثل پروژه‌های ترند GitHub)** برایت بنویسم  
+- اسم **خیلی خوب برای repo** پیشنهاد بدهم  
+- بگویم چطور **با 3 دستور پروژه را روی GitHub آپلود کنی**  
+- یا حتی کمک کنم **آن را روی Vercel deploy کنی**.
