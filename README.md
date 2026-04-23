@@ -50,7 +50,7 @@ This starts the development server at `http://localhost:5173`.
 
 ## 🤖 How It Works
 
-- The chatbot sends user input to the `SJxAI` API endpoint.
+- The chatbot sends user input to your API endpoint.
 - The API processes the input and returns a response.
 - The response is displayed in the chat interface.
 - API key is used for authentication and is stored securely (e.g., in `.env` file).
