@@ -1,117 +1,70 @@
-# Custom Chatbot (React + Vite)
+# 🤖 AI Chatbot (React + Vite)
 
-A lightweight web application that allows users to create and interact with their own chatbot by providing an API key and API endpoint.
-
-Built with **React** and **Vite** for fast performance and a simple development setup.
+A web-based AI chatbot built with **React** and **Vite**, using a custom API endpoint named `SJxAI` for AI responses and an API key for authentication.
 
 ---
 
-## Features
+## 📌 Features
 
-- Custom API key input
-- Custom endpoint support
-- Simple chat interface
-- Fast React + Vite setup
-- Easy to run locally
-
----
-
-## Tech Stack
-
-- React
-- Vite
-- JavaScript
-- Fetch API
+- Real-time chat interface
+- Uses custom AI endpoint: `SJxAI`
+- Secure API communication with API key
+- Fast development with Vite
+- Responsive and clean UI
+- Easy to extend and customize
 
 ---
 
-## Installation
+## 📦 Project Setup
 
-Clone the repository:
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-Go to the project folder:
+### 🛠 Prerequisites
 
-bash
-cd your-repo-name
-Install dependencies:
+- Node.js (v16+)
+- npm or yarn (recommended)
 
-bash
+### 🚀 Installation
+
+```
 npm install
-Run the development server:
+```
+or
+```
+yarn install
+```
 
-bash
+
+### 🧪 Development
+
+```
 npm run dev
-Build
-To build the project:
+```
+or
+```
+yarn dev
+```
 
-bash
-npm run build
-The production files will be generated in the dist folder.
 
-Usage
-Enter your API key
-Enter your API endpoint
-Start chatting with your custom chatbot
-Security Note
-Never expose your API keys in public repositories.
-
-License
-MIT License
-
-text
+This starts the development server at `http://localhost:5173`.
 
 ---
 
-# 5️⃣ اگر بخواهی پروژه حرفه‌ای‌تر به نظر برسد
+## 🤖 How It Works
 
-این سه چیز خیلی تاثیر دارد:
-
-### ✅ Screenshot داخل README
-
-مثلاً:
-
-Screenshot
-
-
-text
+- The chatbot sends user input to the `SJxAI` API endpoint.
+- The API processes the input and returns a response.
+- The response is displayed in the chat interface.
+- API key is used for authentication and is stored securely (e.g., in `.env` file).
 
 ---
 
-### ✅ Topics در GitHub
+## 🔒 API Configuration
 
-بعد از ساخت repo این‌ها را اضافه کن:
+Make sure to set your API key and endpoint and the Model name in the `.env` file:
 
-react
+```
+VITE_API_KEY=your_api_key_here
+VITE_API_ENDPOINT=your_ednpoint_here
+VITE_AI_MODEL=your_model_name
+```
 
-vite
-
-chatbot
-
-ai-chat
-
-openai-api
-
-webapp
-
-text
-
----
-
-### ✅ اسم مناسب برای repo
-
-چند ایده خوب:
-
-- `custom-chatbot-webapp`
-- `bring-your-own-api-chatbot`
-- `react-chatbot-client`
-- `ai-chat-client`
-
----
-
-✅ اگر بخواهی، می‌توانم همین الان هم:
-
-- یک **README خیلی حرفه‌ای‌تر (مثل پروژه‌های ترند GitHub)** برایت بنویسم  
-- اسم **خیلی خوب برای repo** پیشنهاد بدهم  
-- بگویم چطور **با 3 دستور پروژه را روی GitHub آپلود کنی**  
-- یا حتی کمک کنم **آن را روی Vercel deploy کنی**.
+> ⚠️ **Note**: Never commit your `.env` file to version control. Use `.env.example` for reference.
