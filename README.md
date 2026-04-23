@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot (React + Vite)
+# 🤖 Custom AI Chatbot App (React + Vite)
 
 A web-based AI chatbot built with **React** and **Vite**, using a custom API endpoint named `SJxAI` for AI responses and an API key for authentication.
 
